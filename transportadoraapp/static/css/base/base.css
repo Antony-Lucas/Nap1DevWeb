@@ -1,5 +1,6 @@
 .navbar{
     padding: 0 2rem;
+    z-index: 5;
 }
 
 .nav{
@@ -31,6 +32,14 @@ h2{
 .main-logo{
     width: 3.5rem;
     height: 3rem;
+}
+
+.modal-backdrop.show {
+    z-index: 10 !important;
+}
+
+.modal {
+    z-index: 1050;
 }
 
 @media only screen and (max-width: 1200px) {
