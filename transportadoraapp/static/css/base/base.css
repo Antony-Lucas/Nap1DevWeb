@@ -42,6 +42,12 @@ h2{
     z-index: 1050;
 }
 
+.rb-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 @media only screen and (max-width: 1200px) {
     .navbar{
         padding-bottom: 20px;
