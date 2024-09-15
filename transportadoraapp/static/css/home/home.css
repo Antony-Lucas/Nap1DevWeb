@@ -1,0 +1,20 @@
+.container-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #ff6600;
+    height: 100vh;
+}
+
+.container-lb{
+    border-left: solid 10px #FCD469;
+    padding: 0 2rem;
+    width: 26rem;
+    
+}
+
+.container-lb h3{
+    color: #fff;
+    font-weight: 700;
+}

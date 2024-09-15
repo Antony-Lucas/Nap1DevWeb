@@ -1,0 +1,44 @@
+.navbar{
+    padding: 0 2rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 22px;
+    padding-right: 22px;
+    border-right: solid 1px #c3c3c3;
+}
+
+.nav div p, h2{
+    margin: 0;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.main-logo{
+    width: 3.5rem;
+    height: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar{
+        padding-bottom: 20px;
+    }
+
+    .nav div{
+        border: none;
+    }
+}
