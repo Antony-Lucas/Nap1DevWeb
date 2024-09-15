@@ -8,8 +8,19 @@
             <h3>sinônimo de Agilidade e confiança em todo nordeste do pará !</h3>
         </div>
         <div>
-            <img src="../../static/assets/state.webp">
+            <img class="main-img" src="{% static 'assets/state.webp' %}">
+        </div>
+        <div class="track">
+            <h3>Rastreie sua encomenda</h3>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Digite o número da Remessa" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Procurar</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+{% include 'homepage/services.html' %}
+{% include 'homepage/partners.html' %}
 {% block home %}{% endblock home %}
