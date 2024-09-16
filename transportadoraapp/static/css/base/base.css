@@ -17,6 +17,15 @@
     border-right: solid 1px #c3c3c3;
 }
 
+#user-menu-btn {
+    background-color: transparent !important;
+    border: none;
+}
+
+.user-icon {
+    color: #565E64;
+}
+
 .nav div p, h2{
     margin: 0;
 }
