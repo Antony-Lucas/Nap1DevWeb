@@ -46,13 +46,14 @@
                         Entrar
                     </button>
                 </li>
+                <!-- pós login -->
                 <li>
                     <div class="dropdown" id="user-btn" style="display: none;">
                         <button class="btn dropdown-toggle" type="button" id="user-menu-btn" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="bi bi-person-circle user-icon fs-2"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Meu perfil</a>
+                            <a class="dropdown-item" href="{% url 'edit_perfil' %}">Meu perfil</a>
                             <a class="dropdown-item" href="#">Minhas encomendas</a>
                             <a class="dropdown-item" href="#">Pedidos de Transporte</a>
                             <a class="dropdown-item" href="#" id="logout">Sair</a>
@@ -62,7 +63,7 @@
             </ul>
         </div>
     </nav>
-    
+    <!-- MODAL -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">

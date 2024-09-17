@@ -1,0 +1,24 @@
+Campos para Pessoa Física
+Nome Completo: O nome completo do usuário.
+Data de Nascimento: Para verificar a idade e outras informações pessoais.
+CPF (Cadastro de Pessoas Físicas): Número de identificação fiscal no Brasil.
+Email: Endereço de e-mail para comunicação e verificação.
+Senha: Para criar uma conta segura.
+Telefone: Número de telefone para contato.
+Endereço: Inclui rua, número, complemento, bairro, cidade e estado.
+Sexo (Opcional): Informações adicionais, se necessário.
+RG (Registro Geral) ou outro documento de identidade: Dependendo da necessidade.
+
+
+Campos para Pessoa Jurídica (Empresa)
+Razão Social: Nome completo da empresa registrado formalmente.
+Nome Fantasia: Nome pelo qual a empresa é conhecida no mercado.
+CNPJ (Cadastro Nacional da Pessoa Jurídica): Número de identificação fiscal da empresa.
+Inscrição Estadual: Identificação da empresa para a tributação estadual, se aplicável.
+Email Corporativo: Endereço de e-mail para comunicação oficial.
+Senha: Para criar uma conta segura.
+Telefone de Contato: Número de telefone para comunicação com a empresa.
+Endereço da Sede: Inclui rua, número, complemento, bairro, cidade e estado.
+Nome do Responsável: Nome da pessoa física responsável pela empresa.
+Cargo do Responsável: Cargo do responsável dentro da empresa.
+Natureza Jurídica: Tipo de entidade jurídica (por exemplo, LTDA, MEI, etc.).
