@@ -8,3 +8,5 @@ def home(request):
 
 def edit_perfil(request):
     return render(request, 'perfil_usuario\editar_perfil_usuario.html')
+def encomenda(request):
+    return render(request, 'perfil_usuario\encomendas.html')
