@@ -38,3 +38,27 @@ document.getElementById('clienteForm').addEventListener('submit', function(e) {
     // Limpa o campo de entrada
     document.getElementById('clienteForm').reset();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Inicializar o mapa quando o modal for aberto
+    const rastreioModal = document.getElementById('rastreioModal');
+    rastreioModal.addEventListener('shown.bs.modal', function () {
+        // Cria o mapa centrado em uma posição fictícia
+        const map = L.map('map').setView([-23.55052, -46.633308], 5); // Coordenadas fictícias
+
+        // Adicionar uma camada de mapa (usando o OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Definir cidades fictícias e a rota
+        const cidadeA = L.marker([-23.55052, -46.633308]).addTo(map).bindPopup('Cidade A - Origem');
+        const cidadeB = L.marker([-22.9035, -43.2096]).addTo(map).bindPopup('Cidade B - Destino');
+
+        // Adicionar uma linha (rota) entre as cidades fictícias
+        const rota = L.polyline([[-23.55052, -46.633308], [-22.9035, -43.2096]], {color: 'blue'}).addTo(map);
+
+        // Centraliza o mapa na rota
+        map.fitBounds(rota.getBounds());
+    });
+});
